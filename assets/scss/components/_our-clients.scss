@@ -1,0 +1,35 @@
+//Our Clients
+.our-clients {
+    text-align: center;
+    border-bottom: 1px solid #e2e2e2;
+    h4 {
+        text-align: center;
+        font-size: 24px;
+        color: #0f436f;
+        position: relative;
+        margin: 0;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 45%;
+            height: 1px;
+            left: 0;
+            top: 14px;
+            background-color: #e2e2e2;
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            width: 45%;
+            height: 1px;
+            right: 0;
+            top: 14px;
+            background-color: #e2e2e2;
+        }
+    }
+    .our-slider {
+        .slick-slide {
+            padding: 40px;
+        }
+    }
+}
